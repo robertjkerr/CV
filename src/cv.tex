@@ -1,0 +1,35 @@
+\documentclass[10pt,A4,english]{article}
+
+\usepackage{geometry}
+\usepackage[center]{titlesec}
+\usepackage{titling}
+\usepackage{titlesec}
+\usepackage{multicol}
+
+\setlength{\droptitle}{-1.5cm}
+\setlength{\parindent}{0ex}
+\geometry{left=1.4cm, top=.3cm, right=1.4cm, bottom=1cm, footskip=.5cm}
+\pagenumbering{gobble}
+\titlespacing*{\section}{0pt}{0.1\baselineskip}{\baselineskip}
+
+\title{Robert Kerr - CV\vspace{-4em}}
+\date{}
+
+\begin{document}
+\maketitle
+
+%
+%Introduction profile
+%
+\section*{Profile}
+I am a very enthusiastic and knowledgeable individual who takes pride in their ability to lead, work and collaborate in a team. I am a confident person, and I can always be relied upon to complete a task with efficiency, effectiveness, and punctuality.\\
+I always take a creative and inclusive approach to solving problems, and with my competence in mathematics, physics, and computing, I can complete very complex tasks. I challenge myself every day at university, and I love using my knowledge and learning mindset to work in a team to overcome these challenges.\\
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+
+%
+%Education, experience etc sections
+%
+\input{sections/experience.tex}
+\input{sections/more.tex}
+
+\end{document}
