@@ -1,16 +1,22 @@
 \documentclass[10pt,A4,english]{article}
 
 \usepackage{geometry}
-\usepackage[center]{titlesec}
+\usepackage[compact]{titlesec}
 \usepackage{titling}
-\usepackage{titlesec}
 \usepackage{multicol}
+\usepackage{sectsty}
+\usepackage{titlesec}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[default,oldstyle,scale=0.95]{opensans}
 
 \setlength{\droptitle}{-1.5cm}
 \setlength{\parindent}{0ex}
 \geometry{left=1.4cm, top=.3cm, right=1.4cm, bottom=1cm, footskip=.5cm}
 \pagenumbering{gobble}
-\titlespacing*{\section}{0pt}{0.1\baselineskip}{\baselineskip}
+%\titlespacing*{\section}{0pt}{0.1\baselineskip}{\baselineskip}
+\titlespacing{\section}{0pt}{0*}{0*}
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
 
 \title{Robert Kerr - CV\vspace{-4em}}
 \date{}
